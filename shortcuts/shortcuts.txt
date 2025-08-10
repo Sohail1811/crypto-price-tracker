@@ -10,3 +10,12 @@ git config --global user.email "mohammadsohail1811@gmail.com"
 
 git name :Mohammed Sohail
 User name :Sohail1811
+
+In your crypto tracker project, 1d, 7d, and 1m are time intervals used to represent the period over which a cryptocurrency’s percentage price change (or other metrics) is calculated.
+
+Here’s what they mean:
+
+Term	Meaning	Example in Crypto Context
+1d	1 day – Data from the past 24 hours	Price change in the last 24h
+7d	7 days – Data from the past week	Price change in the last 7 days
+1m	1 month – Data from the past 30 days	Price change in the last month

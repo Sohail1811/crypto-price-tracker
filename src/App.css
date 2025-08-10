@@ -134,3 +134,54 @@ h1 {
     height: 16px;
   }
 }
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    padding: 10px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .selector-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .selector-wrapper select {
+    width: 100%;
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+  }
+
+  th,
+  td {
+    padding: 8px 4px;
+    text-align: left;
+    word-break: break-word;
+  }
+
+  .table-wrapper {
+    overflow-x: auto;
+  }
+
+  .chart-container {
+    width: 100%;
+    height: auto;
+  }
+}
+
